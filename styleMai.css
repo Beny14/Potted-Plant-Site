@@ -1,0 +1,165 @@
+@font-face {
+  font-family: menuFonts;
+  src: url(fonts/PTSerif-Regular.ttf);
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+section{
+  margin: 0 -15px;
+}
+
+h4, h5, p{
+  font-family: menuFonts;
+}
+
+.img-contact{
+  border-radius: 10px;
+}
+
+.bg-site{
+  background-color: #f5f5f0;
+}
+
+.bg-section{
+  background-image: url('img/bg-section.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-nav, .nav-item, .nav-link{
+  font-weight: bold;
+  font-family: menuFonts;
+}
+
+.navbar {
+  margin: 0 -15px;
+  background-color: #f5f5f0;
+}
+
+.icon-nav, .icon{
+  position: relative;
+  color: black;
+  padding: 0 5px;
+  font-size: 20px;
+  left: 20%;
+}
+
+.icon-nav, .icon:hover{
+  color: green;
+}
+
+.menuStyle{
+  font-size: 17px;
+}
+
+.menuStyle:hover{
+  color: green;
+}
+
+.user-session{
+  color: black;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding-top: 5px;
+  padding-right: 20px;
+}
+
+.shop-cart{
+  position: absolute;
+  bottom: 8px;
+}
+
+.page-footer{
+  padding: 0 80px;
+  margin: 0 -15px;
+}
+
+.map-container-5{
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container-5 iframe{
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .reclame{
+    margin-top: 20px;
+    width: 60%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .reclame{
+    margin-top: 20px;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+ .carousel{
+   margin-top: 20px;
+   position: relative;
+   left: 4.5%;
+   width: 150%;
+ }
+ .reclame{
+   margin-top: 20px;
+   width: 50%;
+   left: 10%;
+   display: inline-flex;
+ }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .carousel{
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 110%;
+  }
+  .reclame{
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 4%;
+  }
+  .rec-2{
+    margin-top: 4%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .carousel{
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 110%;
+  }
+  .reclame{
+    width: 80%;
+    margin-top: 4%;
+    margin-left: 6.3%;
+  }
+  .rec-2{
+    margin-top: 11%;
+  }
+}

@@ -1,0 +1,62 @@
+.social {
+  text-align: center;
+}
+.social__item {
+  display: inline-block;
+  margin: 5px;
+}
+.social .fab{
+  background: #fff;
+  color: #818181;
+  cursor: pointer;
+  display: block;
+  font-size: 30px;
+  height: 70px;
+  position: relative;
+  text-align: center;
+  transition: all .3s;
+  width: 70px;
+}
+
+.social .far{
+  background: #fff;
+  color: #818181;
+  cursor: pointer;
+  display: block;
+  font-size: 30px;
+  height: 70px;
+  position: relative;
+  text-align: center;
+  transition: all .2s;
+  width: 70px;
+}
+
+ .fa-facebook-f:hover {
+  text-shadow: 0 0 15px rgba(59, 89, 152, 0.7) inset;
+  color: #3b5998;
+}
+.social .fa-instagram:hover {
+  text-shadow: 0 0 15px rgba(225, 48, 108, 0.7) inset;
+  color: #E1306C;
+}
+.social .fa-whatsapp:hover {
+  text-shadow: 0 0 15px rgba(18, 105, 51, 0.7) inset;
+  color: #126933;
+}
+.social .fa-envelope:hover {
+  text-shadow: 0 0 15px rgba(114, 14, 158, 0.7) inset;
+  color: #720e9e;
+}
+
+input[type="text"]:hover{
+  border-color: #5CB85C;
+}
+textarea:hover{
+  border-color: #5CB85C;
+}
+
+.sendMessage{
+  position: relative;
+  left: 43%;
+  top: 10%;
+}
